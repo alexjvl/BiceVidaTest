@@ -12,3 +12,5 @@ Test de Ingeniero DevOps - Bice Vida Lab - Opción 1
 5. Para las pruebas de la aplicación en App Engine, se utilizó el comando "php -S localhost:8080" en Cloud Shell, para luego Obtener una vista previa de la app con “Vista previa en la Web”, opción proporcionada por Cloud Shell.
 
 6. Para subir los archivos a App Engine, se utilizó la opción "Subir Archivo" de Cloud Shell.
+
+7. Para la implementación, se ejecuto el comando "gcloud app deploy" en Cloud Shell.
