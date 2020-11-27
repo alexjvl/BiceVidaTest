@@ -12,37 +12,32 @@
 
 <?php
 
- 
+  //url donde se encuentra archivo json para test de API BICEVIDA
+  $url="https://api-bicevida-test.firebaseio.com/insurance.json";
+  // traigo desde bd firebaseio y lo guardo en arreglo datos 
+  $json= file_get_contents($url);
+  $datos= json_decode ($json,true);
+  $descrip = $datos ["description"];
+  $imagen = $datos ["image"];
+  $nomseguro = $datos ["name"];
+  $precio = $datos ["price"];
 
-//url donde se encuentra archivo json para test de API BICEVIDA
-$url="https://api-bicevida-test.firebaseio.com/insurance.json";
-// traigo desde bd firebaseio y lo guardo en arreglo datos 
-$json= file_get_contents($url);
-$datos= json_decode ($json,true);
-$descrip = $datos ["description"];
-$imagen = $datos ["image"];
-$nomseguro = $datos ["name"];
-$precio = $datos ["price"];
+  // muestro contenido de arreglo
+  echo "Seguros BICEVIDA";
+  echo "<br>";
+  echo "<br>";
+  echo "<br>";
 
+  echo "Nombre del Producto: " .$nomseguro;
+  echo "<br>";
+  echo "<br>";
 
-echo "Seguros BICEVIDA";
-echo "<br>";
-echo "<br>";
-echo "<br>";
+  echo "Descripción del Producto: " .$descrip;
+  echo "<br>";
+  echo "<br>";
 
-echo "Nombre del Producto: " .$nomseguro;
-echo "<br>";
-echo "<br>";
-
-echo "Descripción del Producto: " .$descrip;
-echo "<br>";
-echo "<br>";
-
-echo "Valor $ " .$precio;
-echo "<br>";
-
-//var_dump($descrip);
-//var_dump($datos);
+  echo "Valor $ " .$precio;
+  echo "<br>";
 
 
 ?>
