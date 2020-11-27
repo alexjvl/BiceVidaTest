@@ -5,4 +5,4 @@ Test de Ingeniero DevOps - Bice Vida Lab - Opción 1
 
 2. Para el desarrollo de la aplicación se utilizó Visual Studio Code.
 
-3. 
+3. Para el mantenimiento de las versiones se utilizó GIT y GITHUB, las actualizaciones se realizaron con Git Bash, mediante comandos para inicializar el repositorio, agregar archivos y luego subirlos al repositorio de GITHUB ("git init","git remote add origin https://github.com/alexjvl/BiceVidaTest.git", "git add -A", "git commit -m "comentarios"", "git push origin master")
