@@ -13,5 +13,7 @@ Test de Ingeniero DevOps - Bice Vida Lab - Opción 1
 
 6. Para subir los archivos a App Engine, se utilizó la opción "Subir Archivo" de Cloud Shell.
 
-7. Para la implementación, en Cloud Shell se ejecuta: "gcloud app create", para selecciona la región donde estará localizada, en este caso se opto por la región "us-central",
+7. Para la implementación, en Cloud Shell se ejecuta: "gcloud app create", para seleccionar la región donde estará localizada la aplicación, en este caso se opto por la región "us-central", luego para el despliegue se utilizó en el comando "gcloud app deploy" siempre dentro de Cloud Shell. 
+
+8. Con esto último queda en funcionamiento la aplicación, para ver la página visitar en cualquier navegador: "https://bicevida-297000.uc.r.appspot.com"
 
